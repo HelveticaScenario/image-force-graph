@@ -3,6 +3,10 @@
   "version": "1.0.0",
   "main": "index.js",
   "license": "MIT",
+  "scripts": {
+    "start": "webpack-dev-server",
+    "build": "webpack"
+  },
   "devDependencies": {
     "awesome-typescript-loader": "^3.1.2",
     "html-loader": "^0.4.5",
